@@ -1,0 +1,36 @@
+{
+  "data": {
+    "taxonomyTerms": {
+      "terms": [
+        {
+          "uuid": "uuid-health-001",
+          "label": "Health Department"
+        },
+        {
+          "uuid": "uuid-education-001",
+          "label": "Education Department"
+        },
+        {
+          "uuid": "uuid-transport-001",
+          "label": "Transportation Department"
+        },
+        {
+          "uuid": "uuid-finance-002",
+          "label": "Finance Department"
+        },
+        {
+          "uuid": "uuid-orphan-001",
+          "label": "Orphaned Department"
+        },
+        {
+          "uuid": "uuid-duplicate-001",
+          "label": "Duplicate Label"
+        },
+        {
+          "uuid": "uuid-duplicate-002",
+          "label": "Duplicate Label"
+        }
+      ]
+    }
+  }
+}

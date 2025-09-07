@@ -1,0 +1,30 @@
+[
+  {
+    "sgAgencyName": "Department of Health",
+    "sgInstanceId": "12345",
+    "oncecxAgencyName": "Health Department",
+    "onecxUuid": "uuid-health-001",
+    "departmentName": "Public Health"
+  },
+  {
+    "sgAgencyName": "Department of Education",
+    "sgInstanceId": "12346",
+    "oncecxAgencyName": "Education Department",
+    "onecxUuid": "uuid-education-001",
+    "departmentName": "K-12 Education"
+  },
+  {
+    "sgAgencyName": "Department of Transportation",
+    "sgInstanceId": "12347",
+    "oncecxAgencyName": "Transportation Department",
+    "onecxUuid": "uuid-transport-001",
+    "departmentName": "Infrastructure"
+  },
+  {
+    "sgAgencyName": "Department of Finance",
+    "sgInstanceId": "12348",
+    "oncecxAgencyName": "Finance Department",
+    "onecxUuid": "uuid-finance-001",
+    "departmentName": "Fiscal Management"
+  }
+]
