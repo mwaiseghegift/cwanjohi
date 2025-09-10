@@ -181,13 +181,13 @@ export default function DataComparisonPage() {
           const workbook = XLSX.read(data, { type: 'array' })
           const firstSheetName = workbook.SheetNames[0]
           const worksheet = workbook.Sheets[firstSheetName]
-          const jsonData = XLSX.utils.sheet_to_json(worksheet, { header: 1 }) as any[][]
+          const jsonData = XLSX.utils.sheet_to_json(worksheet, { header: 1 }) as (string | number | boolean | null)[][]
           
           if (jsonData.length < 2) {
             throw new Error('Excel file must have at least a header row and one data row')
           }
           
-          const headers = jsonData[0].map((h: any) => h?.toString().toLowerCase() || '')
+          const headers = jsonData[0].map((h: string | number | boolean | null) => h?.toString().toLowerCase() || '')
           const rows = jsonData.slice(1)
           
           // Map columns (flexible mapping)
